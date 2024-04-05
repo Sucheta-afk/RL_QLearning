@@ -1,0 +1,7 @@
+<launch>
+
+    <node name="listener" pkg="slot_17" type="details_listener.py" output="screen" />
+
+    <node name="publisher" pkg="slot_17" type="details_publisher.py" output="screen" />
+
+</launch>

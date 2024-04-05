@@ -1,0 +1,7 @@
+<launch>
+    
+    <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" output="screen" />
+
+    <node name="turtle_goto" pkg="slot_17" type="turtle_go_to_goal.py" output="screen" />
+
+</launch>
